@@ -11,23 +11,25 @@ body {
  */
 
 header {
-  background-color: green;
-  height: 35px;
+  background-color: gray;
+  height: 4vw;
   width: 100%;
   opacity: .9;
-  margin-bottom: 10px;
+  margin-bottom: 1vw;
 }
+
+
 
 header h1.logo {
   margin: 0;
-  font-size: 1.7em;
+  font-size: 3vw;
   color: #fff;
   text-transform: uppercase;
   float: left;
 }
 
 img.logo {
-height: 30px;
+height: 5vw;
 background-color:inherit;
 }
 
@@ -43,14 +45,23 @@ header h1.logo:hover {
  */
 
 .container {
-  width: 1200px;
+  width: 80vw;
   margin: 0 auto;
+
 }
 
 div.home {
-  padding: 10px 0 30px 0;
-  border-radius: 25px;
+  padding: 3px 0 8px 0;
+  border-radius: 5vw;
   background-color: #E6E6FA;
+}
+
+
+.home h1{
+
+text-align: center;
+
+
 }
 
 div.about {
@@ -71,40 +82,42 @@ div.card {
 
 
 .card{
-position: absolute;
+
 right: : 50%;
-width: 1200px;
-height: 230px;
+width: 80vw;
+height: 40vw;
 margin: 0 auto;
 
 }
 
 /* resize images */
 .card .container img {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+
+    width: 35%;
+    height: 40%;
+    float: left;
 }
 
 
  p.details{
-  position: absolute;
-  padding-left:230px;
+
+  padding-left:55%;
   color: black;
+  font-size: 2vw;
 }
 
 
 h2 {
-  font-size: 3em;
-  margin-top: 40px;
+  font-size: 20%;
+  margin-top: 2vw;
   text-align: center;
   letter-spacing: -2px;
 }
 
 h3 {
-  font-size: 1.7em;
+  font-size: 20%;
   font-weight: 100;
-  margin-top: 30px;
+  margin-top: 2vw;
   text-align: center;
   letter-spacing: -1px;
   color: #999;
@@ -120,10 +133,11 @@ h3 {
 }
 
 .menu li + li {
-  margin-left: 35px;
+  margin-left: 4vw;
 }
 
 .menu li a {
   color: white;
   text-decoration: none;
+  font-size: 1vw
 }
